@@ -5,11 +5,6 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Veritabanı: `notbul`
 -- Tablo için tablo yapısı `note`
@@ -26,25 +21,15 @@ CREATE TABLE `note` (
 
 
 INSERT INTO `note` (`id`, `content`, `contentHeader`, `releaseDate`, `user_id`, `category`) VALUES
-(44, 'Bir dairenin Ã§evresinin o dairenin Ã§apÄ±na oranÄ±dÄ±r. Ä°rrasyonel bir sayÄ±dÄ±r.', 'Pi', '2022-06-21 00:16:42', 6, 'Geometri'),
-(45, 'Dil insanlar arasÄ±nda anlaÅŸmayÄ± saÄŸlayan oluÅŸtur. Kendine ait kurallarÄ± vardÄ±r.', 'Dil', '2022-06-21 00:19:36', 6, 'YabancÄ± Dil'),
-(46, 'TÃ¼rev ve integral matematiÄŸin en Ã¶nemli temel konularÄ±ndan biridir. MÃ¼hendislik alanÄ±nda da Ã§okca kullanÄ±lan bu konuyu Ã¶ÄŸrenmek oldukÃ§a karmaÅŸÄ±ktÄ±r.Ä°ki kavram birbirinin tersidir.TÃ¼rev deÄŸiÅŸim miktarÄ±dÄ±r.Ä°ntegral ise belirli aralÄ±ktaki deÄŸiÅŸim toplamÄ±dÄ±r.', 'TÃ¼rev', '2022-06-21 00:27:34', 7, 'Matematik'),
-(47, 'Asitler suda Ã§Ã¶zÃ¼ndÃ¼ÄŸÃ¼nde hidrojen deriÅŸimi artan maddelerdir.Hidrojen iyonu Ã§Ã¶zeltiyi asidik yapar.Asitler mavi turnusol kaÄŸÄ±dÄ±nÄ± kÄ±rmÄ±ya Ã§eviri. Bazlarla tepkimeye girerek tuz ve su oluÅŸtururlar.GÄ±dalarÄ±n Ã§oÄŸu asit iÃ§erir. Limon asedik asit, elma malÄ±k asit iÃ§erir.', 'Asit', '2022-06-21 00:31:56', 7, 'Kimya'),
-(48, 'levha tektoniÄŸi veya levha hareketlerinin yapÄ±sÄ±nÄ± araÅŸtÄ±rÄ±r.Bir jeoloji alt disiplinidir.oysa tektonik, yeryuvarÄ±nÄ±n bÃ¼yÃ¼k Ã¶lÃ§ekli yapÄ±larÄ± ve bunlarÄ± oluÅŸturan kuvvetler ve hareketler Ã¼zerinde durur.', 'Tektonik', '2022-06-21 00:35:50', 7, 'CoÄŸrafya'),
-(49, 'Baz suda iyonlaÅŸtÄ±klarÄ±nda ortama OH- iyonu veren ve elektron Ã§ifti verebilen maddelerdir. Bazlar da asitler gibi tehlikeli maddelerdir.Suda iyonlaÅŸtÄ±klarÄ±nda hidroksit iyonu deriÅŸimi artar.', 'Baz Nedir?', '2022-06-21 07:34:17', 8, 'Kimya'),
-(50, 'CanÄ±larda kemiklerden oluÅŸmuÅŸ eklem ve baÄŸlaral birbirine tutturulmuÅŸ etrafÄ± kaslarla sarÄ±lÄ± destek veren yapÄ±ya denir.', 'Ä°skelet Nedir?', '2022-06-21 07:36:57', 8, 'Biyoloji'),
-(51, 'sayma sayÄ±sÄ±dÄ±r. negatif ve pozitif olabilir.', 'tamsayÄ±', '2022-06-21 07:45:26', 9, 'Matematik'),
-(53, 'qqqq', 'DoÄŸal SayÄ±', '2022-06-22 09:59:25', 1, 'Matematik'),
-(54, 'aaa', 'Tam Sayi', '2022-06-22 10:02:02', 1, 'Geometri'),
-(56, 'adae', 'Åžerife burd', '2022-06-21 08:09:11', 10, 'YabancÄ± Dil'),
-(57, 'aa', 'ÅŸ n', '2022-06-21 08:10:00', 10, 'Biyoloji'),
-(58, 'q', 'ÅŸ Ã¶', '2022-06-21 08:10:43', 10, 'Biyoloji'),
-(59, 'd', 'Ã¶ ÄŸ', '2022-06-21 08:11:51', 10, 'Biyoloji'),
-(60, 'Ã¶', 'Tam Sayi', '2022-06-21 08:12:09', 10, 'Biyoloji'),
+(44, 'Bir dairenin çevresinin o dairenin alanına oranıdır. irrasyonel bir sayıdır.', 'Pi', '2022-06-21 00:16:42', 6, 'Geometri'),
+(57, 'aa', 'fvg', '2022-06-21 08:10:00', 10, 'Biyoloji'),
+(58, 'q', 'hbf jhfj', '2022-06-21 08:10:43', 10, 'Biyoloji'),
+(59, 'd', 'fr', '2022-06-21 08:11:51', 10, 'Biyoloji'),
+(60, 'ffvf', 'Tam Sayi', '2022-06-21 08:12:09', 10, 'Biyoloji'),
 (61, 'z', 'hh', '2022-06-21 08:12:47', 10, 'Biyoloji'),
 (62, 'dd', 'DoÄŸal SayÄ±', '2022-06-21 08:14:32', 10, 'Biyoloji'),
 (63, 'a', 'doÄŸal sayi', '2022-06-21 08:15:15', 10, 'Biyoloji'),
-(64, '', 'doÄŸal sayi', '2022-06-21 08:20:30', 10, 'Biyoloji'),
+(64, '', 'doğal sayi', '2022-06-21 08:20:30', 10, 'Biyoloji'),
 (65, 'aaa', 'sayi ', '2022-06-21 08:21:45', 10, 'Biyoloji'),
 (67, '', 'df d', '2022-06-22 09:26:32', 1, 'Biyoloji'),
 (73, 'aa', 'fe dej', '2022-06-22 11:56:58', 1, 'Geometri'),
@@ -68,17 +53,17 @@ CREATE TABLE `user` (
   `dateOfRegistration` timestamp NOT NULL DEFAULT current_timestamp(),
   `u_status` varchar(15) NOT NULL,
   `pass_word` varchar(15) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 -- Tablo döküm verisi `user`
 
 INSERT INTO `user` (`id`, `u_name`, `u_lastname`, `u_email`, `dateOfRegistration`, `u_status`, `pass_word`) VALUES
 (1, 'zuhal', 'ozdemir', 'zuhal@mail.com', '2022-06-20 10:43:54', 'highschool', '1234'),
-(7, 'KÃ¼bra', 'Ã–zcan', 'kubra@mail.com', '2022-06-21 00:24:06', 'university', 'zsaz'),
+(7, 'Kübra', 'ozcan', 'kubra@mail.com', '2022-06-21 00:24:06', 'university', 'zsaz'),
 (6, 'Asiye', 'Derin', 'asiye@mail.com', '2022-06-20 23:43:48', 'secondarySchool', 'rewer'),
-(8, 'Ahmet', 'Ã‡elik', 'ahmet@mail.com', '2022-06-21 07:32:01', 'primarySchool', '1234'),
-(9, 'selim', 'aydÄ±n', 'selim@mail.com', '2022-06-21 07:38:08', 'highschool', '1234'),
+(8, 'Ahmet', 'çelik', 'ahmet@mail.com', '2022-06-21 07:32:01', 'primarySchool', '1234'),
+(9, 'selim', 'aydın', 'selim@mail.com', '2022-06-21 07:38:08', 'highschool', '1234'),
 (10, 'ahmet metin', 'yhd', 'metin@mail.com', '2022-06-21 08:03:23', 'highschool', '4532'),
 (11, 'nergiz', 'sadiyeva', 'nergiz@mail.com', '2022-06-22 12:34:35', 'highschool', '1234');
 
