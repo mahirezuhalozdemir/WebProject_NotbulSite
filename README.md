@@ -27,8 +27,8 @@ Bu butonun yönlendirdiği sayfada kullanıcı, bilgilerini girerek kaydolur.
   + WAMP için **wamp** klasörü içerisinde, notbul adında klasör oluşturup içerisine taşıyın.
 + *img* adındaki dosyayı da zip içerisinden çıkarıp oluşturduğunuz klasörün içerisine taşıyın.
 + Bilgisayarınızda xampp control panel üzerinden Apache'yi çalıştırın.
-+ *notbul* adında bir database oluşturun.
-+ *database* klasörü içerisindeki .sql uzantılı dosyayı içeri aktarın.
++ *localhost* phpmyAdmin üzerinden *notbul* adında bir database oluşturun.
++ *database* klasörü içerisindeki .sql uzantılı dosyayı oluşturduğunuz database içerisine aktarın.
 + tarayıcınızda **http://localhost:8080/** yazarak açılan pencereden klasör ismine tıklayın.
 + ya da **(http://localhost:8080/notbul/)** yazarak doğrudan erişim sağlayabilirsiniz.
   + > :DİKKAT: **8080 apache port numarasıdır.Sizin farklı ise o port numarasını girin.**:
