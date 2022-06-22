@@ -21,11 +21,11 @@ Bu butonun yönlendirdiği sayfada kullanıcı, bilgilerini girerek kaydolur.
 + MySQL
 ## Projeyi Bilgisayarınızda Çalıştırmak İçin
 + Öncelikle repoyu bilgisayarınıza indirin. Sağ üstte bulunan yeşil butondan *'Download zip'* diyerek bilgisayarınıza indirin.
-+ Zip dosyası içideki *pages* dosyasını çıkarın.
++ Zip dosyası içideki *pages* klasörünü çıkarın.
 + Çıkardığınız klasör içerisindeki php kodlarını
   + XAMPP için **xampp/htdocs** klasörü içerisinde, notbul adında klasör oluşturup içerisine taşıyın.
   + WAMP için **wamp** klasörü içerisinde, notbul adında klasör oluşturup içerisine taşıyın.
-+ *img* adındaki dosyayı da zip içerisinden çıkarıp oluşturduğunuz klasörün içerisine taşıyın.
++ *img* adındaki klasörü de zip içerisinden çıkarıp oluşturduğunuz klasörün(notbul) içerisine taşıyın.
 + Bilgisayarınızda xampp control panel üzerinden Apache'yi çalıştırın.
 + *localhost* phpmyAdmin üzerinden *notbul* adında bir database oluşturun.
 + *database* klasörü içerisindeki .sql uzantılı dosyayı oluşturduğunuz database içerisine aktarın.
